@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "author",
+						"type": "address"
+					}
+				],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Author.sol": "Author"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Author.sol": {
+			"keccak256": "0xa0d431b10b8e0abafa3cca35eb7876c57f86895c10589a65efc4d3c37ce1ac4d",
+			"urls": [
+				"bzz-raw://bc13704557a92751dc9d6643099be6657d180135c1ecc71ed45293ac5073f756",
+				"dweb:/ipfs/Qmdt7LWGCFtwp1L6QEfvT35nMkqSn6MdajsiPafwymDBAg"
+			]
+		}
+	},
+	"version": 1
+}
